@@ -13,7 +13,6 @@
 %
 % Notes / 说明:
 %   - fobj is assumed to be a minimization objective. / 默认 fobj 为最小化目标。
-%   - Randomness is intrinsic; use multiple runs for statistical conclusions. / 算法含随机性，应进行多次独立运行。
 %==========================================================================
 
 function [FoodFitness,FoodPosition,Convergence_curve] = PDMSSA(N,Max_iter,lb,ub,dim,fobj)
